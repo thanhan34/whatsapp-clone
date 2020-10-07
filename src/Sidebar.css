@@ -45,4 +45,8 @@
   flex: 1;
   background-color: white;
   overflow: scroll;
+  overflow-x: hidden;
+}
+.sidebar__chats::-webkit-scrollbar {
+  display: none;
 }

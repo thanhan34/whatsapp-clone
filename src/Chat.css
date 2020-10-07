@@ -25,6 +25,10 @@
   background-position: center;
   padding: 30px;
   overflow: scroll;
+  overflow-x: hidden;
+}
+.chat__body::-webkit-scrollbar {
+  display: none;
 }
 .chat__message {
   position: relative;
